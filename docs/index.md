@@ -13,8 +13,8 @@ hero:
       text: 快来快来
       link: /articles/组件库环境搭建
     - theme: alt
-      text: View on Gitee
-      link: https://gitee.com/geeksdidi
+      text: View on Github
+      link: https://github.com/echoniujiaming
 
 features:
   - icon: ⚡️
