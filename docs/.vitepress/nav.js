@@ -1,9 +1,8 @@
 export default {
   nav: [
-    { text: "博客", link: "/articles/组件库环境搭建" },
+    { text: "博客", link: "/articles/组件库源码实现" },
     { text: "Guide", link: "/guide/" },
     { text: "GuideTest", link: "/guide/test" },
-    { text: "gitee", link: "https://gitee.com/geeksdidi" },
     {
       text: "Drop Menu",
       items: [

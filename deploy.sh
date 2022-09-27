@@ -13,6 +13,7 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'deploy'
+git branch -m main
 
 # 如果部署到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
