@@ -3,7 +3,6 @@ import wyNav from "./nav";
 import wySidebar from "./sidebar";
 
 export default {
-  base: './',
   title: "vitepress2", //站点标题
   description: "一个vue3组件库", //mate标签description，多用于搜索引擎抓取摘要
   socialLinks: [
@@ -19,7 +18,7 @@ export default {
   ],
   themeConfig: {
     siteTitle: "Kitty",
-    logo: "./logo.png",
+    logo: "/logo.png",
     // nav: wyNav.default.nav,
     nav: wyNav.nav,
     sidebar: wySidebar.sidebar,
