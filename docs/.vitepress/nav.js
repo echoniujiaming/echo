@@ -1,15 +1,32 @@
 export default {
   nav: [
-    { text: "博客", link: "/articles/组件库源码实现" },
-    { text: "Guide", link: "/guide/" },
-    { text: "GuideTest", link: "/guide/test" },
+    { text: "资源", link: "/resource/常用网站" },
+    { text: "文章", link: "/articles/index" },
     {
-      text: "Drop Menu",
+      text: "前端学习",
       items: [
-        { text: "Item A", link: "/item-1" },
-        { text: "Item B", link: "/item-2" },
-        { text: "Item C", link: "/item-3" },
+        {
+          text: '基础',
+          items: [
+          ],
+        },
+        {
+          text: '框架',
+          items: [
+            { text: "vue", link: "/webFramework/vue/xxx" },
+            { text: "react", link: "/webFramework/react/xxx" },
+          ],
+        },
+        {
+          text: '工程化',
+          items: [
+            { text: "vite", link: "/engineering/vite/xxx" },
+            { text: "webpack", link: "/engineering/webpack/xxx" },
+          ],
+        },
       ],
     },
+    { text: "Guide", link: "/guide/" },
+    { text: "GuideTest", link: "/guide/test" },
   ],
 };
